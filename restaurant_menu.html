@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rice and Nori</title>
+<style>
+    header{
+        text-align: center;
+        background-color: rgb(255, 91, 91)
+    }
+    body{
+        background-color: rgb(255, 202, 202 )
+
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h2{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    section{
+        text-align: center;
+    }
+    
+    #option{
+        text-align: center;
+        
+       
+    }
+</style>
+</head>
+<body>
+    <header>
+        <img id="header-image"
+        width="450"
+        src="https://i0.wp.com/tokyotreatblog.wpcomstaging.com/wp-content/uploads/2023/05/daruma-doll-thumbnail.png?fit=1024%2C683&ssl=1"
+        alt="daruma dolls">
+        <h1>Rice and Nori</h1>
+        <nav>
+            <li style=text-align:center;>
+                <ul><a href="#menu">Menu</a></ul>
+                <ul><a href="#order-form">Order form</a></ul>
+            </li>
+        </nav>
+    </header>
+    <section>
+        <h2 id="menu">Menu</h2>
+        <h3 id="option">Snacks</h3>
+        <article>
+            <h3>Karaage Chicken</h3>
+            <img width="150"
+            src="https://static01.nyt.com/images/2018/07/25/dining/HK-karaage-horizontal/merlin_141075300_74569dec-9fc2-4174-931d-019dddef3bb8-master768.jpg?width=1280&quality=75&auto=webp"
+            alt="Karaage Fried Chicken">
+            <p>Bite sized pieces of Japanese fried chicken.<br> Served with choice of dip.<br>
+            <i>price $9.80</i>
+            </p>
+        </article>
+        <article>
+            <h3>Takoyaki</h3>
+            <img
+            width="150"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5EC4TUHegaUX7LuQ9c1Q5i0e9EjOS2S5_5A&s"
+            alt="Takoyaki octopus balls">
+            <p>Battered octopus balls.6pc <br>
+             <i>price $9.80</i>
+            </p>
+            <br>
+        </article>
+        <h3 id="option">Mains</h3>
+        <article>
+            <h3>Gyuudon</h3>
+            <img 
+            width="150"
+            src="https://thewoksoflife.com/wp-content/uploads/2023/07/gyudon-7.jpg"
+            alt="beef, rice and a fried egg in a bowl">
+            <p>
+                Thinly sliced beef, served over rice, topped with a fried egg.<br>
+               <i>price $19.80</i>
+            </p>
+        </article>
+        <article>
+            <h3>Chicken Katsu Curry</h3>
+            <img 
+            width="150"
+            src="https://japan.recipetineats.com/wp-content/uploads/2021/12/Katsu_Curry_7011bsq.jpg"
+            alt="japanese chicken curry">
+            <p>
+                Japanese style curry with crimbed chicked cutlet. Served with rice.<br>
+               <i>price $19.80</i>
+            </p>
+        </article>
+        <h3 id="option">Drinks</h3>
+        <article>
+            <h3>Ramune</h3>
+            <img 
+            width="150"
+            src="https://mel.jfconline.com.au/cdn/shop/products/37137.png?v=1634776575"
+            alt="bottle of ramune soft drink">
+            <p>$4.50</p>
+        </article>
+        <article>
+            <h3>Calpis</h3>
+            <img 
+            width="150"
+            src="https://premiumco.com.au/cdn/shop/products/CalpisWater500ml.jpg?v=1613384531"
+            alt="bottle of calpis">
+            <p>$4.50</p>
+        </article>
+    </section>
+    <section>
+        <h2 id="order-form">Place Your Order</h2>
+        <form>
+            <li>
+            <ul><label>Name</label><input type="text" required></ul>
+            <ul><label>Address</label><input type="text" required></ul>
+            <ul><label>Email</label><input type="email" required></ul>
+            </li><br>
+            <li>
+            <ul><label>Karaage Chicken</label><input type="number" min="0" max="5"></ul>
+            <label>Mayonaise</label><input type="radio" name="sauce">
+            <label>Wasabi Mayo</label><input type="radio" name="sauce">
+            <label>BBQ Sauce</label><input type="radio" name="sauce">
+            <label>No Sauce</label><input type="radio" name="sauce">
+            <ul><label>Takoyaki</label><input type="number" min="0" max="5"></ul>
+            <ul><label>Gyuudon</label><input type="number" min="0" max="5"></ul>
+            <ul><label>Chicken Katsu Curry</label><input type="number" min="0" max="5"></ul>
+            <ul><label>Ramune</label><input type="number" min="0" max="5"></ul>
+            <ul><label>Calpis</label><input type="number" min="0" max="5"></ul>
+            </li>
+            <textarea style="text-align: center;" placeholder="Special requests/comments" rows="7" cols="42"></textarea><br>
+            <input type="submit" value="go to checkout">
+        </form>
+    </section>
+<footer>
+    <p>made with love by @sabeensk</p>
+</footer>
+</body>
+</html> 
